@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E785DB21E769C550085AC37 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E785DB11E769C550085AC37 /* SwiftSpinner.swift */; };
+		8E785DB81E76A00C0085AC37 /* css in Resources */ = {isa = PBXBuildFile; fileRef = 8E785DB31E76A00C0085AC37 /* css */; };
+		8E785DB91E76A00C0085AC37 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 8E785DB41E76A00C0085AC37 /* fonts */; };
+		8E785DBA1E76A00C0085AC37 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 8E785DB51E76A00C0085AC37 /* images */; };
+		8E785DBB1E76A00C0085AC37 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 8E785DB61E76A00C0085AC37 /* index.html */; };
+		8E785DBC1E76A00C0085AC37 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 8E785DB71E76A00C0085AC37 /* js */; };
+		8EC453071E72AA50001CB73C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC453061E72AA50001CB73C /* AppDelegate.swift */; };
+		8EC453091E72AA50001CB73C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC453081E72AA50001CB73C /* ViewController.swift */; };
+		8EC4530C1E72AA50001CB73C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC4530A1E72AA50001CB73C /* Main.storyboard */; };
+		8EC4530F1E72AA50001CB73C /* Health_On_Rent.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4530D1E72AA50001CB73C /* Health_On_Rent.xcdatamodeld */; };
+		8EC453111E72AA50001CB73C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC453101E72AA50001CB73C /* Assets.xcassets */; };
+		8EC453141E72AA50001CB73C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC453121E72AA50001CB73C /* LaunchScreen.storyboard */; };
+		8EC4531F1E72AA50001CB73C /* Health_On_RentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4531E1E72AA50001CB73C /* Health_On_RentTests.swift */; };
+		8EC4532A1E72AA50001CB73C /* Health_On_RentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC453291E72AA50001CB73C /* Health_On_RentUITests.swift */; };
+		8EC4533C1E72AD80001CB73C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC453371E72AD80001CB73C /* FirstViewController.swift */; };
+		8EC4533D1E72AD80001CB73C /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC453381E72AD80001CB73C /* LeftMenuViewController.swift */; };
+		8EC4533E1E72AD80001CB73C /* RightMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC453391E72AD80001CB73C /* RightMenuViewController.swift */; };
+		8EC4533F1E72AD80001CB73C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4533A1E72AD80001CB73C /* SecondViewController.swift */; };
+		8EC453401E72AD80001CB73C /* SSASideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4533B1E72AD80001CB73C /* SSASideMenu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EC4531B1E72AA50001CB73C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EC452FB1E72AA50001CB73C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EC453021E72AA50001CB73C;
+			remoteInfo = "Health On Rent";
+		};
+		8EC453261E72AA50001CB73C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EC452FB1E72AA50001CB73C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EC453021E72AA50001CB73C;
+			remoteInfo = "Health On Rent";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E785DB11E769C550085AC37 /* SwiftSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpinner.swift; sourceTree = "<group>"; };
+		8E785DB31E76A00C0085AC37 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = "../../../Downloads/HealthOnRent-master/app/src/main/assets/css"; sourceTree = "<group>"; };
+		8E785DB41E76A00C0085AC37 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = "../../../Downloads/HealthOnRent-master/app/src/main/assets/fonts"; sourceTree = "<group>"; };
+		8E785DB51E76A00C0085AC37 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = "../../../Downloads/HealthOnRent-master/app/src/main/assets/images"; sourceTree = "<group>"; };
+		8E785DB61E76A00C0085AC37 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = "../../../Downloads/HealthOnRent-master/app/src/main/assets/index.html"; sourceTree = "<group>"; };
+		8E785DB71E76A00C0085AC37 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = "../../../Downloads/HealthOnRent-master/app/src/main/assets/js"; sourceTree = "<group>"; };
+		8EC453031E72AA50001CB73C /* Health On Rent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health On Rent.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC453061E72AA50001CB73C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EC453081E72AA50001CB73C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EC4530B1E72AA50001CB73C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EC4530E1E72AA50001CB73C /* Health_On_Rent.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Health_On_Rent.xcdatamodel; sourceTree = "<group>"; };
+		8EC453101E72AA50001CB73C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EC453131E72AA50001CB73C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EC453151E72AA50001CB73C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EC4531A1E72AA50001CB73C /* Health On RentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Health On RentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC4531E1E72AA50001CB73C /* Health_On_RentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health_On_RentTests.swift; sourceTree = "<group>"; };
+		8EC453201E72AA50001CB73C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EC453251E72AA50001CB73C /* Health On RentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Health On RentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC453291E72AA50001CB73C /* Health_On_RentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health_On_RentUITests.swift; sourceTree = "<group>"; };
+		8EC4532B1E72AA50001CB73C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EC453371E72AD80001CB73C /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		8EC453381E72AD80001CB73C /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		8EC453391E72AD80001CB73C /* RightMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightMenuViewController.swift; sourceTree = "<group>"; };
+		8EC4533A1E72AD80001CB73C /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8EC4533B1E72AD80001CB73C /* SSASideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSASideMenu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EC453001E72AA50001CB73C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC453171E72AA50001CB73C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC453221E72AA50001CB73C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EC452FA1E72AA50001CB73C = {
+			isa = PBXGroup;
+			children = (
+				8EC453051E72AA50001CB73C /* Health On Rent */,
+				8EC4531D1E72AA50001CB73C /* Health On RentTests */,
+				8EC453281E72AA50001CB73C /* Health On RentUITests */,
+				8EC453041E72AA50001CB73C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EC453041E72AA50001CB73C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EC453031E72AA50001CB73C /* Health On Rent.app */,
+				8EC4531A1E72AA50001CB73C /* Health On RentTests.xctest */,
+				8EC453251E72AA50001CB73C /* Health On RentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EC453051E72AA50001CB73C /* Health On Rent */ = {
+			isa = PBXGroup;
+			children = (
+				8E785DB31E76A00C0085AC37 /* css */,
+				8E785DB41E76A00C0085AC37 /* fonts */,
+				8E785DB51E76A00C0085AC37 /* images */,
+				8E785DB61E76A00C0085AC37 /* index.html */,
+				8E785DB71E76A00C0085AC37 /* js */,
+				8E785DB11E769C550085AC37 /* SwiftSpinner.swift */,
+				8EC453371E72AD80001CB73C /* FirstViewController.swift */,
+				8EC453381E72AD80001CB73C /* LeftMenuViewController.swift */,
+				8EC453391E72AD80001CB73C /* RightMenuViewController.swift */,
+				8EC4533A1E72AD80001CB73C /* SecondViewController.swift */,
+				8EC4533B1E72AD80001CB73C /* SSASideMenu.swift */,
+				8EC453061E72AA50001CB73C /* AppDelegate.swift */,
+				8EC453081E72AA50001CB73C /* ViewController.swift */,
+				8EC4530A1E72AA50001CB73C /* Main.storyboard */,
+				8EC453101E72AA50001CB73C /* Assets.xcassets */,
+				8EC453121E72AA50001CB73C /* LaunchScreen.storyboard */,
+				8EC453151E72AA50001CB73C /* Info.plist */,
+				8EC4530D1E72AA50001CB73C /* Health_On_Rent.xcdatamodeld */,
+			);
+			path = "Health On Rent";
+			sourceTree = "<group>";
+		};
+		8EC4531D1E72AA50001CB73C /* Health On RentTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EC4531E1E72AA50001CB73C /* Health_On_RentTests.swift */,
+				8EC453201E72AA50001CB73C /* Info.plist */,
+			);
+			path = "Health On RentTests";
+			sourceTree = "<group>";
+		};
+		8EC453281E72AA50001CB73C /* Health On RentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EC453291E72AA50001CB73C /* Health_On_RentUITests.swift */,
+				8EC4532B1E72AA50001CB73C /* Info.plist */,
+			);
+			path = "Health On RentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EC453021E72AA50001CB73C /* Health On Rent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC4532E1E72AA50001CB73C /* Build configuration list for PBXNativeTarget "Health On Rent" */;
+			buildPhases = (
+				8EC452FF1E72AA50001CB73C /* Sources */,
+				8EC453001E72AA50001CB73C /* Frameworks */,
+				8EC453011E72AA50001CB73C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Health On Rent";
+			productName = "Health On Rent";
+			productReference = 8EC453031E72AA50001CB73C /* Health On Rent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EC453191E72AA50001CB73C /* Health On RentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC453311E72AA50001CB73C /* Build configuration list for PBXNativeTarget "Health On RentTests" */;
+			buildPhases = (
+				8EC453161E72AA50001CB73C /* Sources */,
+				8EC453171E72AA50001CB73C /* Frameworks */,
+				8EC453181E72AA50001CB73C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EC4531C1E72AA50001CB73C /* PBXTargetDependency */,
+			);
+			name = "Health On RentTests";
+			productName = "Health On RentTests";
+			productReference = 8EC4531A1E72AA50001CB73C /* Health On RentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EC453241E72AA50001CB73C /* Health On RentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC453341E72AA50001CB73C /* Build configuration list for PBXNativeTarget "Health On RentUITests" */;
+			buildPhases = (
+				8EC453211E72AA50001CB73C /* Sources */,
+				8EC453221E72AA50001CB73C /* Frameworks */,
+				8EC453231E72AA50001CB73C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EC453271E72AA50001CB73C /* PBXTargetDependency */,
+			);
+			name = "Health On RentUITests";
+			productName = "Health On RentUITests";
+			productReference = 8EC453251E72AA50001CB73C /* Health On RentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EC452FB1E72AA50001CB73C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = BafnaSurgicals;
+				TargetAttributes = {
+					8EC453021E72AA50001CB73C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6D8F4DY67H;
+						ProvisioningStyle = Automatic;
+					};
+					8EC453191E72AA50001CB73C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6D8F4DY67H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8EC453021E72AA50001CB73C;
+					};
+					8EC453241E72AA50001CB73C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6D8F4DY67H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8EC453021E72AA50001CB73C;
+					};
+				};
+			};
+			buildConfigurationList = 8EC452FE1E72AA50001CB73C /* Build configuration list for PBXProject "Health On Rent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EC452FA1E72AA50001CB73C;
+			productRefGroup = 8EC453041E72AA50001CB73C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EC453021E72AA50001CB73C /* Health On Rent */,
+				8EC453191E72AA50001CB73C /* Health On RentTests */,
+				8EC453241E72AA50001CB73C /* Health On RentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EC453011E72AA50001CB73C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E785DBB1E76A00C0085AC37 /* index.html in Resources */,
+				8E785DBA1E76A00C0085AC37 /* images in Resources */,
+				8E785DB81E76A00C0085AC37 /* css in Resources */,
+				8E785DBC1E76A00C0085AC37 /* js in Resources */,
+				8E785DB91E76A00C0085AC37 /* fonts in Resources */,
+				8EC453141E72AA50001CB73C /* LaunchScreen.storyboard in Resources */,
+				8EC453111E72AA50001CB73C /* Assets.xcassets in Resources */,
+				8EC4530C1E72AA50001CB73C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC453181E72AA50001CB73C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC453231E72AA50001CB73C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EC452FF1E72AA50001CB73C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC453091E72AA50001CB73C /* ViewController.swift in Sources */,
+				8EC453071E72AA50001CB73C /* AppDelegate.swift in Sources */,
+				8E785DB21E769C550085AC37 /* SwiftSpinner.swift in Sources */,
+				8EC4530F1E72AA50001CB73C /* Health_On_Rent.xcdatamodeld in Sources */,
+				8EC4533C1E72AD80001CB73C /* FirstViewController.swift in Sources */,
+				8EC4533F1E72AD80001CB73C /* SecondViewController.swift in Sources */,
+				8EC453401E72AD80001CB73C /* SSASideMenu.swift in Sources */,
+				8EC4533E1E72AD80001CB73C /* RightMenuViewController.swift in Sources */,
+				8EC4533D1E72AD80001CB73C /* LeftMenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC453161E72AA50001CB73C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC4531F1E72AA50001CB73C /* Health_On_RentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC453211E72AA50001CB73C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC4532A1E72AA50001CB73C /* Health_On_RentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EC4531C1E72AA50001CB73C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EC453021E72AA50001CB73C /* Health On Rent */;
+			targetProxy = 8EC4531B1E72AA50001CB73C /* PBXContainerItemProxy */;
+		};
+		8EC453271E72AA50001CB73C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EC453021E72AA50001CB73C /* Health On Rent */;
+			targetProxy = 8EC453261E72AA50001CB73C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EC4530A1E72AA50001CB73C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EC4530B1E72AA50001CB73C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EC453121E72AA50001CB73C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EC453131E72AA50001CB73C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EC4532C1E72AA50001CB73C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EC4532D1E72AA50001CB73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EC4532F1E72AA50001CB73C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6D8F4DY67H;
+				INFOPLIST_FILE = "Health On Rent/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "piyusht.Health-On-Rent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EC453301E72AA50001CB73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6D8F4DY67H;
+				INFOPLIST_FILE = "Health On Rent/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "piyusht.Health-On-Rent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EC453321E72AA50001CB73C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6D8F4DY67H;
+				INFOPLIST_FILE = "Health On RentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "piyusht.Health-On-RentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Health On Rent.app/Health On Rent";
+			};
+			name = Debug;
+		};
+		8EC453331E72AA50001CB73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6D8F4DY67H;
+				INFOPLIST_FILE = "Health On RentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "piyusht.Health-On-RentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Health On Rent.app/Health On Rent";
+			};
+			name = Release;
+		};
+		8EC453351E72AA50001CB73C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6D8F4DY67H;
+				INFOPLIST_FILE = "Health On RentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "piyusht.Health-On-RentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Health On Rent";
+			};
+			name = Debug;
+		};
+		8EC453361E72AA50001CB73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6D8F4DY67H;
+				INFOPLIST_FILE = "Health On RentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "piyusht.Health-On-RentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Health On Rent";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EC452FE1E72AA50001CB73C /* Build configuration list for PBXProject "Health On Rent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC4532C1E72AA50001CB73C /* Debug */,
+				8EC4532D1E72AA50001CB73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EC4532E1E72AA50001CB73C /* Build configuration list for PBXNativeTarget "Health On Rent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC4532F1E72AA50001CB73C /* Debug */,
+				8EC453301E72AA50001CB73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EC453311E72AA50001CB73C /* Build configuration list for PBXNativeTarget "Health On RentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC453321E72AA50001CB73C /* Debug */,
+				8EC453331E72AA50001CB73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EC453341E72AA50001CB73C /* Build configuration list for PBXNativeTarget "Health On RentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC453351E72AA50001CB73C /* Debug */,
+				8EC453361E72AA50001CB73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8EC4530D1E72AA50001CB73C /* Health_On_Rent.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8EC4530E1E72AA50001CB73C /* Health_On_Rent.xcdatamodel */,
+			);
+			currentVersion = 8EC4530E1E72AA50001CB73C /* Health_On_Rent.xcdatamodel */;
+			path = Health_On_Rent.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8EC452FB1E72AA50001CB73C /* Project object */;
+}
